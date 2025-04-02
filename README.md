@@ -9,3 +9,15 @@ To run this project, install the following dependencies:
 
 ```bash
 pip install torch torchaudio speechbrain pesq s3prl mir_eval matplotlib
+```
+# Language Identification Using MFCC and Neural Networks
+
+This project implements a **language identification system** using **MFCC feature extraction** and a **neural network classifier**. The dataset contains audio samples from 10 Indian languages.
+
+## Requirements
+
+To install the required dependencies, run:
+
+```bash
+pip install torch torchaudio librosa pandas scikit-learn seaborn matplotlib kagglehub
+```
